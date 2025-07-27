@@ -5,6 +5,7 @@ Each PDF file includes the complete design documentation: the schematic, the PCB
 ## Repository Contents
 * 'PCB_v1.pdf': Contains the complete design files for the first version of the test board.
 * 'PCB_v2.pdf': Contains the complete design files for the revised, final version of the test board.
+* 'PCB_v3.pdf': Contains the complete design files for an alternate version of the test board using a QFN socket.
 
 ## Design Versions
 
@@ -13,3 +14,6 @@ This is the initial design, which functions as a carrier board. It's designed to
 
 ### Version 2 (PCB_v2.pdf)
 This is the revised, integrated version of the design. In this version, the QFN80 IC is intended to be soldered directly onto the test board. This approach eliminates the need for a separate module and headers, providing a more direct electrical connection for improved signal integrity and a more compact final assembly.
+
+### Version 3 (PCB_v3.pdf)
+This alternate version is designed for solderless testing by incorporating a QFN socket. This allows for the simple insertion and removal of different ICs, making it ideal for rapid, repeated, and non-destructive testing for smoother and more accurate evaluation.
